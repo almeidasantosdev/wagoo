@@ -39,6 +39,13 @@ flowchart LR
 
 React, Node.js, AWS, Docker.
 
-## Por que não há código aqui
+## Recorte de código
 
-O Wagoo é um produto em operação. Este repositório existe para mostrar o escopo do trabalho a quem avalia experiência, sem entregar a implementação para cópia.
+`src/` é um exemplo da regra de agenda, escrito para este portfólio. Não é o serviço em produção: não há WhatsApp, pagamento, painel nem dados reais.
+
+A função `hasConflict` impede dois horários do mesmo profissional no mesmo intervalo e permite que o próximo comece exatamente quando o anterior termina.
+
+```bash
+npm install
+npm test
+```
